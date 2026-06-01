@@ -1,0 +1,14 @@
+{
+  "name": "vte-questionnaire",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @vte/web",
+    "build": "npm run build -w @vte/web",
+    "test": "npm run test -w @vte/scoring-core",
+    "typecheck": "npm run typecheck -w @vte/scoring-core && npm run typecheck -w @vte/scale-data && npm run typecheck -w @vte/web"
+  }
+}
