@@ -6,15 +6,16 @@
 
 仓库：https://github.com/szh030425/question
 
-### 一次性设置
+### 一次性设置（必做，否则公网 404）
 
 1. 将代码推送到 `main` 分支：
    ```bash
    git push origin main
    ```
-2. 打开 GitHub 仓库 → **Settings** → **Pages**
-3. **Build and deployment** → Source 选择 **GitHub Actions**
-4. 等待 Actions 工作流 `Deploy to GitHub Pages` 跑绿（约 2–3 分钟）
+2. 打开 https://github.com/szh030425/question/settings/pages
+3. **Build and deployment** → **Source** 选 **Deploy from a branch**
+4. **Branch** 选 `gh-pages`，文件夹选 `/ (root)`，点 **Save**
+5. 等待 Actions 工作流 `Deploy to GitHub Pages` 跑绿（约 2–3 分钟）
 
 ### 公网地址
 
