@@ -40,6 +40,14 @@ npm run dev
 
 见 [docs/scale-inventory.md](docs/scale-inventory.md)。
 
+## 公网部署（分享给他人）
+
+推送代码到 GitHub 后，Actions 会自动部署到 **GitHub Pages**：
+
+**https://szh030425.github.io/question/**
+
+详细步骤见 [docs/DEPLOY.md](docs/DEPLOY.md)（含 Vercel、Netlify、自有服务器）。
+
 ## 后续
 
 - 微信小程序：复用 `scoring-core` 与 `scale-data`，UI 层迁移至 Taro/uni-app。
